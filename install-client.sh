@@ -32,6 +32,7 @@ Type=simple
 User=root
 WorkingDirectory=/usr/local/bin
 ExecStart=/usr/local/bin/rcpi-client.sh
+ExecStartPost=/bin/bash /usr/local/bin/send-hostname.sh
 Restart=on-failure
 RestartSec=10s
 
