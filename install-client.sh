@@ -20,6 +20,7 @@ EOF
 
 # install script
 cp rcpi-client.sh /usr/local/bin
+cp send-hostname.sh /usr/local/bin
 
 # install the service
 cat > /lib/systemd/system/rcpi-client.service <<-EOF
