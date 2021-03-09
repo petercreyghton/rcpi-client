@@ -15,7 +15,7 @@ Accessing a headless Raspberry Pi can be a challenge. When no wired access is po
 
 ## The What
 
-By creating a persistent reverse tunnel to a jumnphost in the cloud, the Raspberry Pi can be accessed though the jumphost. The jumphost dynamically creates a web terminal, so any computer can access the Pi with a internet browser.
+By creating a persistent reverse tunnel to a jumphost in the cloud, the Raspberry Pi can be accessed though the jumphost. The jumphost dynamically creates a web terminal, so any computer can access the Pi with a internet browser.
 
 Ok, not any computer. The computer must be on the same (Wifi) network as the Pi. Network access to the Pi is restricted to computers on the same local network. The jumphost dynamically creates firewall rules to prevent others from connecting to your Pi. By redirecting dynamic local ports, the jumphost provides the default HTTP and SSH ports to access the Pi. 
 
