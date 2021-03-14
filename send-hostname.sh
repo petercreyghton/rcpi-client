@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PORT=60000
-TUNNELHOST=shell2pi.nl
+TUNNELHOST=$(grep -i rcpi-server /etc/rcpi/rcpi.conf|cut -d":" -f2)
 
 LOOP=0
 MAXLOOP=15
