@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# install.sh installs the RCPi service on a RPi
+# install.sh installs the RCPi service on a Raspberry Pi
 #
 # add hostname of hub as parameter to use your own URL
 
