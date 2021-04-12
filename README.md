@@ -8,6 +8,7 @@
 
 On a Raspberry Pi, run install-client.sh to install the autossh service and persist it through systemd. Access the Pi through the default jumphost: http://remotelysecu.re
 
+or via ssh: ssh://remotelysecu.re/
 
 ## The Why
 
